@@ -1,0 +1,15 @@
+create table person
+(
+    id       int auto_increment
+        primary key,
+    name     varchar(45) not null,
+    lastname varchar(45) not null,
+    email    varchar(45) not null,
+    phone    varchar(10) not null,
+    address  varchar(45) not null,
+    constraint id_UNIQUE
+        unique (id)
+);
+
+
+
